@@ -1,27 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32901.82
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatternLDD", "StrategyPatternLDD\StrategyPatternLDD.csproj", "{5D27B976-3BFA-471D-BA88-8DAEF2B105C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPatternLDD", "StrategyPatternLDD\StrategyPatternLDD.csproj", "{5D27B976-3BFA-471D-BA88-8DAEF2B105C8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StrategyPattern", "StrategyPattern", "{8E19376A-FD6E-4BF6-918B-552A9B494C48}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestProject", "TestProject", "{01290B62-0DCF-4E76-9394-AB4F3ADB9C0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatternTest", "StrategyPatternTest\StrategyPatternTest.csproj", "{1D4699C3-EB51-4E7D-8CF8-2CC18D6D1671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPatternTest", "StrategyPatternTest\StrategyPatternTest.csproj", "{1D4699C3-EB51-4E7D-8CF8-2CC18D6D1671}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OserverPattern", "OserverPattern", "{77816181-BF02-4A1F-ADFE-AC0B7696B63D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{69B40B96-892D-4CF6-A451-CE2BED904472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{69B40B96-892D-4CF6-A451-CE2BED904472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternTest", "ObserverPatternTest\ObserverPatternTest.csproj", "{6C566123-94A7-4086-805F-2B781554EEB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPatternTest", "ObserverPatternTest\ObserverPatternTest.csproj", "{6C566123-94A7-4086-805F-2B781554EEB1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecoratorPattern", "DecoratorPattern", "{519199D2-5F25-416B-BC3C-ADB3AB271AEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatternLib", "DecoratorPatternLib\DecoratorPatternLib.csproj", "{114E6ABD-3B5D-4DA1-B629-F6299C34D540}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPatternLib", "DecoratorPatternLib\DecoratorPatternLib.csproj", "{114E6ABD-3B5D-4DA1-B629-F6299C34D540}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatternTest", "DecoratorPatternTest\DecoratorPatternTest.csproj", "{326AA552-9709-4C27-9822-2F47CF2B81FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPatternTest", "DecoratorPatternTest\DecoratorPatternTest.csproj", "{326AA552-9709-4C27-9822-2F47CF2B81FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryPattern", "FactoryPattern", "{94FA78A2-B224-4DC6-B913-6B0916C8CD55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{2C693442-3965-4943-AF48-60A511EF23D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternTest", "FactoryPatternTest\FactoryPatternTest.csproj", "{55DB3A1A-B648-4009-AD79-3AC2F6391FD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +59,14 @@ Global
 		{326AA552-9709-4C27-9822-2F47CF2B81FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{326AA552-9709-4C27-9822-2F47CF2B81FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{326AA552-9709-4C27-9822-2F47CF2B81FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C693442-3965-4943-AF48-60A511EF23D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C693442-3965-4943-AF48-60A511EF23D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C693442-3965-4943-AF48-60A511EF23D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C693442-3965-4943-AF48-60A511EF23D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DB3A1A-B648-4009-AD79-3AC2F6391FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DB3A1A-B648-4009-AD79-3AC2F6391FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DB3A1A-B648-4009-AD79-3AC2F6391FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DB3A1A-B648-4009-AD79-3AC2F6391FD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +78,8 @@ Global
 		{6C566123-94A7-4086-805F-2B781554EEB1} = {01290B62-0DCF-4E76-9394-AB4F3ADB9C0E}
 		{114E6ABD-3B5D-4DA1-B629-F6299C34D540} = {519199D2-5F25-416B-BC3C-ADB3AB271AEF}
 		{326AA552-9709-4C27-9822-2F47CF2B81FB} = {01290B62-0DCF-4E76-9394-AB4F3ADB9C0E}
+		{2C693442-3965-4943-AF48-60A511EF23D0} = {94FA78A2-B224-4DC6-B913-6B0916C8CD55}
+		{55DB3A1A-B648-4009-AD79-3AC2F6391FD9} = {01290B62-0DCF-4E76-9394-AB4F3ADB9C0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D755DEA2-B5F8-4FAF-9F0B-03E69D113746}
